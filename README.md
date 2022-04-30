@@ -23,7 +23,7 @@ parameter `image` there needs to be adjusted by hand when the project name / ver
 
 ## Used tools and licenses
 
-For more information about swagger and additional licenses:
+For more information and additional licenses:
 
 #### Docker
 
