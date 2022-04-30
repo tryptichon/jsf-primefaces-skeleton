@@ -25,6 +25,12 @@ parameter `image` there needs to be adjusted by hand when the project name / ver
 
 For more information and additional licenses:
 
+#### Primefaces
+
+* [Official website](https://www.primefaces.org/)
+* [Licensing](https://www.primefaces.org/licenses/)
+* [GitHub repositories](https://github.com/primefaces/)
+
 #### Docker
 
 * [Official website](https://www.docker.com/)
