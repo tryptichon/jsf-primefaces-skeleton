@@ -21,6 +21,8 @@ See [pom.xml](pom.xml) on how this is done.
 A sample [docker-compose.yaml](docker/docker-compose.yaml) is included to start a container easily. The
 parameter `image` there needs to be adjusted by hand when the project name / version changes.
 
+After the container has started, point your browser to `http://localhost:8080/`.
+
 ## Used tools and licenses
 
 For more information and additional licenses:
