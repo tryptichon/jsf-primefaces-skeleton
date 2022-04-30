@@ -171,7 +171,7 @@ String docker_image_tag = "${docker.image.tag}" ?:
 
 project.properties.setProperty('docker.image', "${docker_image_name}:${docker_image_tag}")
 
-println("Calculated docker image ${project.properties.getProperty('docker.image')}")
+// println("Calculated docker image ${project.properties.getProperty('docker.image')}")
                             ]]>
                         </script>
                     </scripts>
