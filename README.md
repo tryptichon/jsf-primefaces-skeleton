@@ -13,7 +13,7 @@ Best used with IntelliJ IDEA as IDE.
 Just run
 
 ```shell
-mvn package
+mvn package -Ddocker=true
 ```
 
 See [pom.xml](pom.xml) on how this is done.
