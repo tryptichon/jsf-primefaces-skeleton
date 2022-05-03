@@ -8,12 +8,21 @@ Prerequisites:
 
 Best used with IntelliJ IDEA as IDE.
 
-## Create a docker image
+## Handling docker images
 
-Just run
+Using maven to handle docker image creation and cleanup is done by just activating the profile `docker`. This
+can be activated via `-Ddocker=true` on the commandline.
+
+Create a docker image: 
 
 ```shell
 mvn package -Ddocker=true
+```
+
+Cleanup and remove the docker image:
+
+```shell
+mvn clean -Ddocker=true
 ```
 
 See [pom.xml](pom.xml) on how this is done.
